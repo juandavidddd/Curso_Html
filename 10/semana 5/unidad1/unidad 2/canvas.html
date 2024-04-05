@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas</title>
+</head>
+<body>
+    <canvas id="miCanvas" width="100" height="100%" style="border:1px solid #000000">
+
+    </canvas>
+
+    <script>
+
+
+    var c = document.getElementById("miCanvas");    
+        var ctx = c.getContext("2d");   
+      var  posx=0;
+        var posy=0;
+
+        animar();
+
+
+        dibujarcuadro (20,20) ;
+        dibujarcuadro (40,40) ;
+
+        function dibujarcuadro(x,y){
+            
+        }
+        function animar(){
+            ctx.fillStyle = "#FF0000";  
+        ctx.fillRect(x,y,30,30);
+
+        }
+
+if (posx< canvas.width){
+
+}
+
+
+        
+    </script>
+
+</html> 

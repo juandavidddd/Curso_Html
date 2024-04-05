@@ -1,0 +1,20 @@
+<script>
+    document.writeln(" juan David timaran <br>")
+    var n,m,i;
+
+    for (n = 1; n<=10; n++){
+        i = 1;
+document.writeln("<br> Tablas del ", n , "<br>" )
+
+        do {
+            m = n * i;
+            document.writeln(n, " * ", i, "=", m, "<br>");
+            i++;
+        } while (i < 11) 
+
+
+    }
+
+
+    
+</script>    

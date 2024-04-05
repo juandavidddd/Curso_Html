@@ -1,0 +1,14 @@
+<script>
+    document.writeln("Juan David", "<BR>")
+var n, ventasmayores,ventasmenores,comision;
+n=parseInt(prompt("escriba el numero de vendedores"));
+for (var i=1;i<=n;i++){
+ document.writeln("vendedor",i,"<BR><BR>");
+ ventasmenores=parseInt(prompt("ingrese total de ventas menores a 100k"));
+ ventasmayores=parseInt(prompt("ingrese total de ventas mayores a 100k"));
+ comision=(ventasmenores* 2.5/100)+ (ventasmayores* 75/100);
+ dodocument.writeln("comision=", comision,"<BR>");
+
+
+}
+</script>
